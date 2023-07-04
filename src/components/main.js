@@ -39,7 +39,7 @@ const Main = () => {
         Swal.fire({
           icon: "success",
           title: "Success",
-          html: "Role is saved",
+          html: "Role is created successfully",
         });
       } else {
         Swal.fire({
