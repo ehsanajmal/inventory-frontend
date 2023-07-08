@@ -65,7 +65,7 @@ const Main = () => {
             </div>
             <div className="card-body">
               <div className="form-group">
-                <label htmlFor="">Enter Role Name</label>
+                <label htmlFor="">Enter the Role Name</label>
                 <input
                   onChange={handleChange}
                   type="text"
@@ -75,7 +75,7 @@ const Main = () => {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="">Enter Description</label>
+                <label htmlFor="">Enter Role Description</label>
                 <input
                   onChange={handleChange}
                   type="text"
@@ -103,8 +103,8 @@ const Main = () => {
               <table className="table">
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>Descirption</th>
+                    <th>Role Name</th>
+                    <th>Role Descirption</th>
                   </tr>
                 </thead>
                 <tbody>
